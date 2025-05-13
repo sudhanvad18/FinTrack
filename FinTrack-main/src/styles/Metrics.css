@@ -1,0 +1,33 @@
+.metrics-panel {
+  background-color: #1e293b;
+  color: #e2e8f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}
+
+.tab-buttons button {
+  background-color: #334155;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.tab-buttons .active {
+  background-color: #38d9a9;
+  color: #0f172a;
+}
+
+.tab-content {
+  margin-top: 1rem;
+  background-color: #0f172a;
+  padding: 1rem;
+  border-radius: 8px;
+  font-family: monospace;
+  color: #e2e8f0;
+}

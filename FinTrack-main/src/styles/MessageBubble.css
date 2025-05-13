@@ -1,0 +1,36 @@
+.message-bubble {
+  max-width: 70%;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  line-height: 1.4;
+  font-family: 'Poppins', sans-serif;
+}
+
+.message-bubble.user {
+  background-color: #38d9a9;
+  color: #0f172a;
+  align-self: flex-end;
+}
+
+.message-bubble.bot {
+  background-color: #334155;
+  color: #ffffff;
+  align-self: flex-start;
+}
+
+/* 🧠 Code formatting for bot responses */
+.code-block {
+  background-color: #1e293b;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 0.85rem;
+  padding: 1rem;
+  border-radius: 10px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  line-height: 1.5;
+  margin: 0;
+}

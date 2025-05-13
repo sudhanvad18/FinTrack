@@ -1,0 +1,23 @@
+.card {
+    background-color: var(--color-panel);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 1rem;
+  }
+  
+  .section-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--color-text);
+  }
+  
+  .accent-text {
+    color: var(--color-accent);
+  }
+  
+  .muted-text {
+    color: var(--color-muted);
+  }
+  
